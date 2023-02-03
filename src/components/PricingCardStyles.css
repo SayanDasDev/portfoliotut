@@ -1,0 +1,63 @@
+.pricing{
+    width: 100%;
+    padding: 1rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 0;
+    
+}
+
+.bar{
+    border-bottom: 2px solid white;
+    display: block;
+    width: 10%;
+    margin: 1.5rem auto;
+}
+
+.card{
+    /* max-width: 600px; */
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: rgba(19, 19, 19, 0.75);
+}
+
+.card > h3{
+    font-size: 1.75rem;
+}
+
+.card > p{
+    margin-bottom: 1.5rem;
+}
+
+.btc{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.btnproj{
+    display: block;
+    width: 80%;
+    margin: 2rem auto 0.25rem auto;
+}
+
+
+@media screen and (max-width: 1040px) {
+    
+
+    .card-container{
+        width: 90%;
+        max-width: 600px;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

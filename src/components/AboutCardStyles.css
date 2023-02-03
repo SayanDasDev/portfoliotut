@@ -1,0 +1,36 @@
+.about-container{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    margin: 2rem 0;
+}
+
+.left > h2{
+    font-size: 2.5rem;
+}
+
+.left > p{
+    font-size: 1.25rem;
+    padding: 2rem 0 3rem 0;
+    text-align: center;
+}
+
+.about-img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1040px) {
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+}

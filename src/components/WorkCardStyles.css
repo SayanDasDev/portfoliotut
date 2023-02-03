@@ -1,0 +1,61 @@
+.work-card-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 1.5rem 0 6rem 0;
+    /* background-color: rgba(19, 19, 19, 0.9); */
+}
+
+.work-heading{
+    text-align: center;
+    font-size: 1.75rem;
+    padding-top: 3rem;
+}
+
+.work-card{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(25, 25, 25, 1);
+    border-radius: 0.5rem;
+}
+
+.proj-title{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.proj-text{
+    text-align: left;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.proj-img{
+    width: 100%;
+    
+}
+
+
+
+.proj-btns{
+    padding: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 1040px) {
+    
+
+    .work-card-container{
+        width: 90%;
+        max-width: 600px;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
